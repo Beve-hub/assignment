@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #f4f4f4;    
 }
 
 /* Navbar Styles */
@@ -699,6 +699,9 @@ text-align: left;
     width: 350px;
     height: 350px;
 }
+.contact-form {
+    
+}
 .form-group {            
     padding: 20px;    
     display: grid;  
@@ -749,4 +752,23 @@ button {
     color: #ccc;
     padding: 15px;
     border-radius: 5px;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-list {
+        flex-direction: column;
+    }
+
+    .contact-top {
+        flex-direction: column;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+        max-width: 100%;
+    }
 }
